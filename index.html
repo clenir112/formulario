@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="formulario">
+            <h1>Formulário de Dúvida</h1>
+        </div>
+    </header>
+
+    <div class="input">
+        <label for="pesquisa">Pesquisa:</label>
+        <input type="text" id="pesquisa" placeholder="Digite sua dúvida">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="pesquisa" placeholder="Digite seu nome:">
+
+        <label for="email">Email:</label>
+        <input type="text" id="pesquisa" placeholder="Digite seu email:">
+
+        <label for="categoria">Categoria:</label>
+        <select id="categoria" required>
+            <option value="" disabled selected>Selecione uma categoria</option>
+            <option value="geral">Geral</option>
+            <option value="suporte">Suporte</option>
+            <option value="vendas">Vendas</option>
+            <option value="tecnico">Técnico</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" placeholder="Digite sua mensagem..." rows="4" required></textarea>
+
+        <button type="submit">Pesquisar</button>
+
+
+    </div>
+    
+</body>
+</html>

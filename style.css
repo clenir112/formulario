@@ -1,0 +1,77 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo do título */
+h1 {
+    color: #333;
+}
+
+/* Estilo do formulário */
+.formulario {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Estilo dos campos de entrada */
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo dos labels */
+.input label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Estilo dos inputs, selects e textarea */
+.input input,
+.input select,
+.input textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* Estilo do botão */
+.input button {
+    background-color: #28a745; /* Cor verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Efeito hover no botão */
+.input button:hover {
+    background-color: #218838; /* Cor verde mais escura */
+}
+
+/* Estilo para mensagens de erro ou validação (opcional) */
+.input .error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
